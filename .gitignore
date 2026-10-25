@@ -1,0 +1,10 @@
+﻿# 编译产物
+*.exe
+*.o
+*.obj
+a.out
+# 压缩包
+*.zip
+# 编辑器（想保留 VSCode 的编译参数就保留 tasks.json）
+.vscode/*
+!.vscode/tasks.json

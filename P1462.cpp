@@ -17,6 +17,7 @@ bool check(int mid, int n, vector<int>& tu_fe, vector<vector<pair<int, int>>>& t
         op.pop();
         if(vis[u]) continue;
         vis[u] = true;
+        if(d > dis[u]) continue;
         for(auto [v, w] : tu[u])
         {
             if(tu_fe[v] > mid) continue;

@@ -3,7 +3,7 @@ using namespace std;
 
 vector<int> op(10, 0);//int x[10];
 
-auto cafen(int i)\
+auto cafen(int i)
 {
     while(i)
     {
